@@ -4,10 +4,12 @@ var crypto = require('crypto');
 var defaultConfig = {
     // 随机生成密码的长度
     "pwMinLength": 4,
-    // 
+    // 随机密码的可用字符
     "pwBaseString": "2345617890",
+    // md5加密保存密码的盐
     "saltPrefix": "あらがきゆい",
     "saltSuffix": "Hello,world!",
+    // aes加密传输的key和iv
     "aeskey": "1a25893d00fd770830923ffdcd28a959069e918f3f66308cf5a31a1d20a233da",
     "aesiv": "b4fff0a7107f55a2a14cab9a7a47f784"
 };
